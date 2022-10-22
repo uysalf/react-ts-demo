@@ -96,7 +96,6 @@ function App() {
         ]}
         onClick={(item) => console.log(item)}
       />
-      <div>test1</div>
     </div>
   );
 }
