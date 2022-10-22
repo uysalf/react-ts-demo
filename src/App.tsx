@@ -97,6 +97,7 @@ function App() {
         onClick={(item) => console.log(item)}
       />
     </div>
+    <div>github üzerinden değişiklik yapıldı.</div>
   );
 }
 
