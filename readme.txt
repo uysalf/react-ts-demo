@@ -22,3 +22,14 @@ git checkout -- <file>
 *Discard all local changes to all files permanently
 git reset --hard
 //////////
+
+github publish web site:
+https://uysalf.github.io/react-ts-demo/
+
+npm install gh-pages --save-dev
+"homepage": "http://uysalf.github.io/react-ts-demo",
+ scripts:
+   "start": "react-scripts start",
+    "predeploy": "npm run build",
+npm run deploy   
+git save changes
